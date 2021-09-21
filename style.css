@@ -3,3 +3,51 @@
     margin: 0;
     padding: 0;
 }
+/* body {
+    background-color: #000000;
+} */
+
+/* utility */
+.flex {
+    display: flex;
+}
+
+/* header */
+.site_header {
+    border-top: 1px solid #868F98; 
+}
+.site_header_container {
+    background-color: #DADADA;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.circles {
+    flex-grow: 1;
+}
+.red_circle, .yellow_circle, .green_circle  {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.red_circle {
+    background: #FC625D;
+}
+.yellow_circle {
+    background: #FDBC40;
+    margin: 0 0.5rem;
+}
+.green_circle {
+    background: #33C74A;
+}
+.zoom_id {
+    flex-grow: 1;
+}
+.zoom_id p {
+    margin-right: 5px;
+}
+.hidden_id {
+    width: 10rem;
+    background-color: #A5A5A5;
+    border: 5px solid #ffffff;
+}
