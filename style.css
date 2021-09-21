@@ -51,3 +51,26 @@
     background-color: #A5A5A5;
     border: 5px solid #ffffff;
 }
+
+/* main */
+.site_main {
+    background-color: black;
+}
+.site_main_container {
+    width: 80%;
+    margin: auto;
+}
+.video i, .video p {
+    color: white;
+}
+
+.image_wrapper {
+     position: relative;
+}
+
+.microphone {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.616);
+}
