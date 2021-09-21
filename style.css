@@ -57,12 +57,14 @@ img {
 /* main */
 .site_main {
     background-color: black;
+    position: relative;
 }
 .site_main_container {
     width: 80%;
     margin: auto;
     padding: 2rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .video {
     margin: 0.5rem;
@@ -81,4 +83,36 @@ img {
     bottom: 0;
     background: rgba(0, 0, 0, 0.473);
     padding: 0.5rem;
+}
+.caret_left {
+  color: #7F7F7F;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+.caret_right {
+    color: #39BBFC;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+
+}
+.view_icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.speaker_view {
+    color: white;
+    background: rgba(0, 0, 0, 0.014);
+    display: inline-block;
+}
+.iconcina {
+    vertical-align: middle;
+    
+}
+.expand {
+    color: white;
+    display: inline-block;
+
 }
