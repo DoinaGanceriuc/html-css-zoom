@@ -11,7 +11,9 @@
 .flex {
     display: flex;
 }
-
+img {
+    display: block;
+}
 /* header */
 .site_header {
     border-top: 1px solid #868F98; 
@@ -59,6 +61,11 @@
 .site_main_container {
     width: 80%;
     margin: auto;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.video {
+    margin: 0.5rem;
 }
 .video i, .video p {
     color: white;
@@ -72,5 +79,6 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.616);
+    background: rgba(0, 0, 0, 0.473);
+    padding: 0.5rem;
 }
